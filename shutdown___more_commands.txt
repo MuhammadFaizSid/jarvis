@@ -1,0 +1,40 @@
+# import os
+# Shutdown
+# check = input("Want to shutdown your computer ? (y/n): ");
+# if check == 'n':
+#     exit();
+# else:
+#     os.system("C:/Windows/System32/shutdown.exe /s /t 0" )
+#     print("runing")
+
+# Sleep
+# check = input("Want to sleep your computer ? (y/n): ");
+# if check == 'n':
+#     exit();
+# else:
+#     os.system("C:/Windows/System32/rundll32.exe powrprof.dll,SetSuspendState 0,1,0" )
+#     print("runing")
+
+# Lock
+# check = input("Want to lock your computer ? (y/n): ");
+# if check == 'n':
+#     exit();
+# else:
+#     os.system("C:/Windows/System32/rundll32.exe User32.dll ,LockWorkStation" )
+#     print("runing")
+
+# Hibernate
+# check = input("Want to hibernate your computer ? (y/n): ");
+# if check == 'n':
+#     exit();
+# else:
+#     os.system("C:/Windows/System32/rundll32 powrprof.dll ,SetSuspendState")
+#     print("runing")
+
+# Restart
+# check = input("Want to restart your computer ? (y/n): ");
+# if check == 'n':
+#     exit();
+# else:
+#     os.system("C:\Windows\System32\shutdown.exe -r -t 00" )
+#     print("runing")
